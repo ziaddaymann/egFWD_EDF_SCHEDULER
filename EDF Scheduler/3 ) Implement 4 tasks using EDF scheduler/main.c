@@ -255,7 +255,7 @@ void Uart_Receiver (void * pvParameters )
 			}
 			else
 			{
-							char String[27]="falling edge task1 string\n";
+							char String[27]="falling edge task2 string\n";
 							vSerialPutString((signed char *) String, strlen(String));
 			}
 		}
